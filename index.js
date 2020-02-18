@@ -313,13 +313,13 @@ const argTimesTwo = (num) => {
  *         (2) returns the updated value of the `odometer`.
 */
 function carMaker(odometer) {
-  // return {
-  //   odometer,
-  //   drive(distance) {
-  //     this.odometer += distance
-  //     return this.odometer
-  //   }
-  // }
+  return {
+    odometer,
+    drive(distance) {
+      this.odometer += distance
+      return this.odometer
+    }
+  }
   /* code here */
 }
 
